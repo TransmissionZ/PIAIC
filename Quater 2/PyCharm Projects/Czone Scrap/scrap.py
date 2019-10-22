@@ -1,5 +1,4 @@
-from bs4 import BeautifulSoup as soup
-from urllib.request import urlopen as uReq
+
 
 uClient = uReq("https://homeshopping.pk/categories/Mobile-Phones-Price-Pakistan")
 all_web = uClient.read()
